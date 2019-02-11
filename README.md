@@ -40,6 +40,16 @@ Note: If you're using Linux Bash for Windows, [see this guide](https://www.howto
 - [electron/electron-api-demos](https://github.com/electron/electron-api-demos) - an Electron app that teaches you how to use Electron
 - [hokein/electron-sample-apps](https://github.com/hokein/electron-sample-apps) - small demo apps for the various Electron APIs
 
+## 打包
+# electron-packager . 'HelloWorld' --platform=win32 --arch=all --icon='favicon.png' --out=./out --asar --app-version=0.0.1
+# 参数说明： 
+* location of project：项目所在路径 
+* name of project：打包的项目名字 
+* platform：确定了你要构建哪个平台的应用（Windows、Mac 还是 Linux） 
+* architecture：决定了使用 x86 还是 x64 还是两个架构都用 
+* electron version：electron 的版本 
+* optional options：可选选项
+
 ## License
 
 [CC0 1.0 (Public Domain)](LICENSE.md)
