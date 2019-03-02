@@ -41,7 +41,7 @@ Note: If you're using Linux Bash for Windows, [see this guide](https://www.howto
 - [hokein/electron-sample-apps](https://github.com/hokein/electron-sample-apps) - small demo apps for the various Electron APIs
 
 ## 打包
-# electron-packager . 'HelloWorld' --platform=win32 --arch=all --icon='favicon.png' --out=./out --asar --app-version=0.0.1
+# electron-packager . sup --out ./OutApp --arch=x64 --app-version=1.0.0 --electron-version=4.0.3 --overwrite --icon=favicon.png
 # 参数说明： 
 * location of project：项目所在路径 
 * name of project：打包的项目名字 

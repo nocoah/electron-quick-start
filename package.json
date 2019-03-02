@@ -1,10 +1,11 @@
 {
-  "name": "electron-quick-start",
+  "name": "sup",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "sup",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "package": "electron-packager . sup --out ./OutPutApp --icon=favicon.ico --arch=x64 --app-version=1.0.0 --electron-version=4.0.3 --overwrite "
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
@@ -17,6 +18,7 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^4.0.3"
+    "electron": "^4.0.3",
+    "electron-packager": "^13.1.0"
   }
 }
